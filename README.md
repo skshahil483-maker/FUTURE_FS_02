@@ -77,7 +77,7 @@ npm start
 
 6. Open your browser and visit:
 text
-https://brewbuzz.skshahil483.workers.dev/
+[https://future-fs-02-delta-dusky.vercel.app/login]
 
 
 📸 Screenshots
