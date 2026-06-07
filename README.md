@@ -1,16 +1,115 @@
-# React + Vite
+ Mini CRM System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient Customer Relationship Management (CRM) system designed to help businesses manage customer information, track interactions, and organize customer records in one place.
 
-Currently, two official plugins are available:
+📌 Overview
+The Mini CRM System is a web-based application that streamlines customer management by providing an easy-to-use interface for storing, updating, and managing customer data. It helps improve organization and enhances customer relationship tracking for small businesses and teams.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Features
+- Add new customer records
+- View customer details
+- Edit existing customer information
+- Delete customer records
+- Search and manage customers efficiently
+- User-friendly dashboard
+- Responsive design for different devices
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js
+- Framework: Express.js
+- Database: MongoDB
+- Version Control: Git & GitHub
 
-## Expanding the ESLint configuration
+📂 Project Structure
+mini-crm/
+│
+├── public/
+│   ├── css/
+│   ├── js/
+│
+├── views/
+│
+├── routes/
+│
+├── models/
+│
+├── config/
+│
+├── server.js
+├── package.json
+└── README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🚀 Getting Started
+
+ Prerequisites
+- Node.js installed
+- MongoDB installed or MongoDB Atlas account
+- Git
+
+ Installation
+1. Clone the repository
+bash
+git clone https://github.com/yourusername/mini-crm.git
+
+
+2. Navigate to the project directory
+bash
+cd mini-crm
+
+3. Install dependencies
+bash
+npm install
+
+4. Configure environment variables
+
+Create a `.env` file and add:
+
+env
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+
+5. Start the application
+bash
+npm start
+
+6. Open your browser and visit:
+text
+http://localhost:5000
+
+
+📸 Screenshots
+
+Add screenshots of your dashboard, customer list, and customer management pages here.
+
+🎯 Learning Outcomes
+
+Through this project, I gained hands-on experience in:
+
+- Full Stack Web Development
+- CRUD Operations
+- Database Integration
+- RESTful Routing
+- Backend Development with Node.js and Express
+- MongoDB Data Management
+- Git and GitHub Workflow
+
+ Future Enhancements
+
+- User Authentication & Authorization
+- Customer Activity Tracking
+- Email Notifications
+- Advanced Search & Filtering
+- Analytics Dashboard
+- Export Customer Data
+
+👨‍💻 Author
+Shahil Sk
+
+Aspiring Full Stack Developer passionate about building scalable web applications and solving real-world problems through technology.
+
+---
+
+If you found this project useful, feel free to star the repository ⭐
