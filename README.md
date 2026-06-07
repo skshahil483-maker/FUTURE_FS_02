@@ -52,7 +52,7 @@ mini-crm/
  Installation
 1. Clone the repository
 bash
-git clone https://github.com/yourusername/mini-crm.git
+git clone https:[(https://github.com/skshahil483-maker/FUTURE_FS_02.git)]
 
 
 2. Navigate to the project directory
@@ -77,7 +77,7 @@ npm start
 
 6. Open your browser and visit:
 text
-http://localhost:5000
+https://brewbuzz.skshahil483.workers.dev/
 
 
 📸 Screenshots
